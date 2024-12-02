@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #ff6b6b;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.pets-section {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.pets-section h2 {
+  text-align: center;
+}
+
+.filters {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filters label, .filters select {
+  margin-right: 10px;
+}
+
+.pet-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pet-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 15px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.pet-card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.ourPhilosophy{
+  background-image: PetStoreMoodboard.png;
+  padding: 20px;
+  text-align: center;
+}
+
+.philosophy-card {
+  margin: 10px auto;
+  max-width: 500px;
+  padding: 70px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.volunteering{
+  background-image: PetStoreMoodboard.png;
+  padding: 20px;
+  text-align: left;
+}
+
+.volunteer{
+  margin: 10px auto;
+  max-width: 500px;
+  padding: 70px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #ff6b6b;
+  color: white;
+}
+
+footer .social-links a {
+  color: white;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+/* Contact Section */
+#contact {
+    padding: 10px 50px;
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;
+    margin: 0 auto;
+    gap: 5px;
+}
+
+.contact-form label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#para{
+  text-align: center;
+}
